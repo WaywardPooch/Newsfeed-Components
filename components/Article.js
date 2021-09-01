@@ -87,6 +87,17 @@ const data = [
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
   },
+  // Step 5
+  {
+    title: "TESV: Skyrim - Out Now!",
+    date: "Nov 11th, 2011",
+    firstParagraph:
+      "The next chapter of the epic fantasy saga from Bethesda Softworks is now available for purchase!",
+    secondParagraph:
+      "Take the role of the Dragonborne, and liberate the northern lands from the world eater, Alduin.",
+    thirdParagraph:
+      "Aid the Jarls of Skyrim to put an end to the civil war, and relieve Skyrim's people of its turmoil.",
+  },
 ];
 
 /*
