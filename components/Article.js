@@ -115,6 +115,7 @@ const data = [
   Refresh the page to see the new article.
 */
 
+// Step 1
 function articleMaker({
   title,
   date,
@@ -152,11 +153,19 @@ function articleMaker({
   article3rdP.textContent = thirdParagraph;
   articleExpandBtn.textContent = "+";
 
+  // Step 2
   // Assign event listeners
   articleExpandBtn.addEventListener("click", () => {
     article.classList.toggle("article-open");
   });
 
+  // Step 3
   // Return node
   return article;
 }
+
+// Step 4
+const articleSection = document.querySelector("div.articles");
+data.forEach((post) => {
+  articleSection.appendChild(articleMaker(post));
+});
