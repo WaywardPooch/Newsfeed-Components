@@ -115,7 +115,6 @@ const data = [
   Refresh the page to see the new article.
 */
 
-// Step 1
 function articleMaker({
   title,
   date,
@@ -141,9 +140,9 @@ function articleMaker({
   article.appendChild(articleExpandBtn);
 
   // Assign classes
-  article.className = "article";
-  articleDate.className = "date";
-  articleExpandBtn.className = "expandButton";
+  article.classList.add("article");
+  articleDate.classList.add("date");
+  articleExpandBtn.classList.add("expandButton");
 
   // Assign content
   articleTitle.textContent = title;
@@ -152,6 +151,11 @@ function articleMaker({
   article2ndP.textContent = secondParagraph;
   article3rdP.textContent = thirdParagraph;
   articleExpandBtn.textContent = "+";
+
+  // Assign event listeners
+  articleExpandBtn.addEventListener("click", () => {
+    article.classList.toggle("article-open");
+  });
 
   // Return node
   return article;
