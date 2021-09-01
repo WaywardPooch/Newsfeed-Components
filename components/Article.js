@@ -98,6 +98,16 @@ const data = [
     thirdParagraph:
       "Aid the Jarls of Skyrim to put an end to the civil war, and relieve Skyrim's people of its turmoil.",
   },
+  {
+    title: 'The Origin of the "Gotcha Grab"',
+    date: "Long time ago",
+    firstParagraph:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit magnis imperdiet, vestibulum felis facilisi neque venenatis feugiat integer lobortis, risus fermentum interdum placerat consequat posuere purus praesent. Nisi venenatis purus porta sociosqu eget tristique phasellus, placerat quam odio mollis volutpat nisl potenti bibendum, sociis curae varius lobortis himenaeos eros. Magnis dictumst fermentum vehicula cursus dictum orci bibendum augue, imperdiet est elementum netus nunc nisi dui cras dapibus, mi leo potenti varius sociis a montes.",
+    secondParagraph:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit magnis imperdiet, vestibulum felis facilisi neque venenatis feugiat integer lobortis, risus fermentum interdum placerat consequat posuere purus praesent. Nisi venenatis purus porta sociosqu eget tristique phasellus, placerat quam odio mollis volutpat nisl potenti bibendum, sociis curae varius lobortis himenaeos eros. Magnis dictumst fermentum vehicula cursus dictum orci bibendum augue, imperdiet est elementum netus nunc nisi dui cras dapibus, mi leo potenti varius sociis a montes.",
+    thirdParagraph:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit magnis imperdiet, vestibulum felis facilisi neque venenatis feugiat integer lobortis, risus fermentum interdum placerat consequat posuere purus praesent. Nisi venenatis purus porta sociosqu eget tristique phasellus, placerat quam odio mollis volutpat nisl potenti bibendum, sociis curae varius lobortis himenaeos eros. Magnis dictumst fermentum vehicula cursus dictum orci bibendum augue, imperdiet est elementum netus nunc nisi dui cras dapibus, mi leo potenti varius sociis a montes.",
+  },
 ];
 
 /*
